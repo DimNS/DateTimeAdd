@@ -1,4 +1,4 @@
-const dayjs = require('dayjs');
+const moment = require('moment');
 
 /**
  * @param {number} seconds
@@ -10,15 +10,15 @@ const dayjs = require('dayjs');
  * @param {string} format
  */
 function getDateTime(seconds, minutes, hours, days, months, years, format) {
-    let now = dayjs();
+    let now = moment();
 
-    now.add(seconds, 'second');
-    now.add(minutes, 'minute');
-    now.add(hours, 'hour');
+    now.add(seconds, 'seconds');
+    now.add(minutes, 'minutes');
+    now.add(hours, 'hours');
 
-    now.add(days, 'day');
-    now.add(months, 'month');
-    now.add(years, 'year');
+    now.add(days, 'days');
+    now.add(months, 'months');
+    now.add(years, 'years');
 
     return now.format(format);
 }

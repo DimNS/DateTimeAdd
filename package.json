@@ -1,6 +1,6 @@
 {
     "name": "insomnia-plugin-datetimeaddition",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "datetime-add.js",
     "license": "MIT",
     "repository": {
@@ -27,6 +27,6 @@
         "unlisted": true
     },
     "dependencies": {
-        "dayjs": "^1.11.10"
+        "moment": "^2.29.1"
     }
 }
