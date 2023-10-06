@@ -1,0 +1,32 @@
+{
+    "name": "insomnia-plugin-datetime-add",
+    "version": "1.0.0",
+    "main": "datetime-add.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DimNS/DateTimeAdd"
+    },
+    "keywords": [
+        "insomnia",
+        "date",
+        "time",
+        "datetime",
+        "template",
+        "tag"
+    ],
+    "homepage": "https://insomnia.rest/plugins/insomnia-plugin-datetime-add",
+    "description": "Allows you to use a datetime as a template tag and allows basic addition.",
+    "insomnia": {
+        "name": "DateTime Add",
+        "displayName": "DateTime Add",
+        "description": "Allows you to use a datetime as a template tag and allows basic addition.",
+        "publisher": {
+            "name": "Dmitrii Shcherbakov"
+        },
+        "unlisted": true
+    },
+    "dependencies": {
+        "dayjs": "^1.11.10"
+    }
+}
