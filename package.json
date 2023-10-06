@@ -1,5 +1,5 @@
 {
-    "name": "insomnia-plugin-datetime-add",
+    "name": "insomnia-plugin-datetimeaddition",
     "version": "1.0.0",
     "main": "datetime-add.js",
     "license": "MIT",
@@ -15,7 +15,7 @@
         "template",
         "tag"
     ],
-    "homepage": "https://insomnia.rest/plugins/insomnia-plugin-datetime-add",
+    "homepage": "https://insomnia.rest/plugins/insomnia-plugin-datetimeaddition",
     "description": "Allows you to use a datetime as a template tag and allows basic addition.",
     "insomnia": {
         "name": "DateTime Add",
